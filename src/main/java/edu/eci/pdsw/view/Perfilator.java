@@ -20,9 +20,7 @@ package edu.eci.pdsw.view;
 public class Perfilator {
 
     public static void main(String a[]){
-        System.out.println("No se ha implementado aún...");
-        
-        
+        System.out.println("No se ha implementado aún. Parámetro recibido:"+a[0]);
     }
     
 }
