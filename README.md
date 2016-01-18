@@ -35,8 +35,11 @@ En esta primera versión, para que una clase pueda ser ‘perfilada’, debe imp
 Para hacer esto, utilice el API de Reflection de manera que se pueda:
 
 a.	Verificar que la clase implementa la interfaz indicada. En caso de que no, mostrar un mensaje de error.
+
 b.	En caso de que sí implemente la interfaz, usar los métodos implementados de dicha interfaz para identificar qué métodos se quieren probar de la clase.
+
 c.	Crear una instancia de la clase, y ejecutar en la misma los métodos indicados, el número de veces indicado, midiendo el tiempo total que toma su ejecución.
+
 d.	Al terminar, el programa debe imprimir los nombres de los métodos ejecutados, el número de veces cuya ejecución fue repetida, y el tiempo total tomado.
 
 2.	Haga los ajustes que sean necesarios para que la clase ‘ClaseAProbar’ suministrada se pueda perfilar. Luego, realice la medición para la misma.
