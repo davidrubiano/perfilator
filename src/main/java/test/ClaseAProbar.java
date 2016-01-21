@@ -2,8 +2,10 @@ package test;
 
 import java.util.Random;
 
+import perfilation.Perfilable;
 
-public class ClaseAProbar {
+
+public class ClaseAProbar implements Perfilable {
 
 	
 	public void metodoUno(){
@@ -36,6 +38,20 @@ public class ClaseAProbar {
 		for (int i=0;i<99999999;i++){
 			x=x+x;
 		}		
+	}
+
+
+	@Override
+	public String[] getTesteableMethodNames() {
+		String[] res= {"metodoUno", "metodoDos"};
+		return res;
+	}
+
+
+	@Override
+	public int[] getTestCount() {
+		int[] res ={2,2};
+		return res;
 	}
 
 
